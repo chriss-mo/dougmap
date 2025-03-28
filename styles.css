@@ -109,6 +109,27 @@ body {
     color: #333; /* Darker text color for better contrast */
 }
 
+.ds-column {
+    background-color: rgba(181, 234, 255, 0.6); /* Light gray background */
+    font-weight: bold; /* Make the text bold */
+    font-size: 18px;
+    color: #333; /* Darker text color for better contrast */
+}
+
+.wknd-column {
+    background-color: rgba(255, 177, 175, 0.6); /* Light gray background */
+    font-weight: bold; /* Make the text bold */
+    font-size: 18px;
+    color: #333; /* Darker text color for better contrast */
+}
+
+.daily-column {
+    background-color: rgba(160, 255, 211, 0.6); /* Light gray background */
+    font-weight: bold; /* Make the text bold */
+    font-size: 18px;
+    color: #333; /* Darker text color for better contrast */
+}
+
 /* Add a subtle hover effect for rows */
 #results tbody tr:hover .highlight-column {
     background-color: #e6f7ff; /* Light blue background on hover */

@@ -8,7 +8,7 @@ const map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/streets-v11',
     center: [-98.5795, 39.8283], // Center of the US
-    zoom: 4
+    zoom: 3
 });
 
 // Export the updateMap function
@@ -182,14 +182,14 @@ export function displayResults(city = null, state = null, observations) {
                         <td>${car.Handling}</td>
                         <td>${car['Fun Factor']}</td>
                         <td>${car['Cool Factor']}</td>
-                        <td class="highlight-column">${car.Total_Weekend}</td>
+                        <td class="wknd-column">${car.Total_Weekend}</td>
                         <td>${car.Features}</td>
                         <td>${car.Comfort}</td>
                         <td>${car.Quality}</td>
                         <td>${car.Practicality}</td>
                         <td>${car.Value}</td>
-                        <td class="highlight-column">${car.Total_Daily}</td>
-                        <td class="highlight-column">${car.Total_Overall}</td>
+                        <td class="daily-column">${car.Total_Daily}</td>
+                        <td class="ds-column">${car.Total_Overall}</td>
                     </tr>
                 `).join('')}
             </tbody>

@@ -39,12 +39,12 @@
 37,2021.0,McLaren,765LT,8.0,10.0,10.0,9.0,9.0,46.0,6.0,3.0,7.0,2.0,6.0,24.0,70.0,13:16,San Diego,California,UK,San Diego,California,32.8313,-117.1222,3057778
 38,2019.0,Aston Martin,Vanquish Shooting Brake,9.0,8.0,7.0,8.0,9.0,41.0,6.0,5.0,8.0,4.0,6.0,29.0,70.0,27:22,Newport Beach,California,UK,Newport Beach,California,33.6151,-117.8668,84304
 39,2021.0,Audi,RS7,7.0,9.0,6.0,7.0,6.0,35.0,9.0,7.0,8.0,6.0,5.0,35.0,70.0,20:08,Los Angeles,California,Germany,Los Angeles,California,34.1141,-118.4068,11885717
-40,2021.0,Lamborghini ,Centenario,9.0,10.0,9.0,10.0,10.0,48.0,6.0,3.0,7.0,1.0,5.0,22.0,70.0,30:14,Newport Beach,California,Italy,Newport Beach,California,33.6151,-117.8668,84304
+40,2021.0,Lamborghini,Centenario,9.0,10.0,9.0,10.0,10.0,48.0,6.0,3.0,7.0,1.0,5.0,22.0,70.0,30:14,Newport Beach,California,Italy,Newport Beach,California,33.6151,-117.8668,84304
 41,2020.0,Porsche,Cayenne Turbo S Coupe,7.0,8.0,6.0,6.0,6.0,33.0,8.0,7.0,8.0,8.0,6.0,37.0,70.0,26:27,San Diego,California,Germany,San Diego,California,32.8313,-117.1222,3057778
 42,2019.0,Ford,GT,8.0,10.0,10.0,10.0,10.0,48.0,6.0,2.0,7.0,1.0,6.0,22.0,70.0,35:53,Huntington Beach,California,USA,Huntington Beach,California,33.696,-118.0018,196010
 43,2019.0,McLaren,720S Spider,8.0,10.0,9.0,10.0,8.0,45.0,6.0,4.0,7.0,2.0,6.0,25.0,70.0,23:16,San Diego,California,UK,San Diego,California,32.8313,-117.1222,3057778
 44,2018.0,Lamborghini,Huracan Performante,8.0,10.0,10.0,9.0,8.0,45.0,6.0,3.0,8.0,2.0,6.0,25.0,70.0,26:23,Costa Mesa,California,Italy,Costa Mesa,California,33.6667,-117.9135,110538
-45,2022.0,Maserati ,MC20,9.0,10.0,8.0,8.0,8.0,43.0,6.0,4.0,7.0,2.0,7.0,26.0,69.0,29:40,San Diego,California,Italy,San Diego,California,32.8313,-117.1222,3057778
+45,2022.0,Maserati,MC20,9.0,10.0,8.0,8.0,8.0,43.0,6.0,4.0,7.0,2.0,7.0,26.0,69.0,29:40,San Diego,California,Italy,San Diego,California,32.8313,-117.1222,3057778
 46,2018.0,BMW,M5,7.0,10.0,6.0,7.0,6.0,36.0,8.0,7.0,7.0,5.0,6.0,33.0,69.0,25:24,Santa Ana,California,Germany,Santa Ana,California,33.7367,-117.8819,311639
 47,2020.0,Audi,RSQ8,7.0,8.0,5.0,6.0,6.0,32.0,8.0,7.0,8.0,8.0,6.0,37.0,69.0,22:15,Los Angeles,California,Germany,Los Angeles,California,34.1141,-118.4068,11885717
 48,2021.0,Porsche,911 Turbo S (992),7.0,10.0,8.0,8.0,7.0,40.0,7.0,5.0,8.0,3.0,6.0,29.0,69.0,25:27,San Diego,California,Germany,San Diego,California,32.8313,-117.1222,3057778
@@ -65,7 +65,7 @@
 63,2022.0,Porsche,911 GT3,7.0,9.0,9.0,9.0,8.0,42.0,6.0,4.0,8.0,2.0,6.0,26.0,68.0,29:04,Los Angeles,California,Germany,Los Angeles,California,34.1141,-118.4068,11885717
 64,2021.0,BMW,M3,6.0,7.0,7.0,8.0,6.0,34.0,8.0,7.0,7.0,5.0,7.0,34.0,68.0,29:32,Santa Ana,California,Germany,Santa Ana,California,33.7367,-117.8819,311639
 65,2021.0,Dodge,Ram TRX,7.0,8.0,4.0,8.0,6.0,33.0,7.0,6.0,6.0,8.0,8.0,35.0,68.0,26:44,San Diego,California,USA,San Diego,California,32.8313,-117.1222,3057778
-66,2014.0,Bugatti ,Veyron Vitesse,8.0,10.0,8.0,10.0,10.0,46.0,4.0,4.0,7.0,1.0,6.0,22.0,68.0,35:30,Palm Beach,Florida,France,Palm Beach,Florida,26.6945,-80.0408,9234
+66,2014.0,Bugatti,Veyron Vitesse,8.0,10.0,8.0,10.0,10.0,46.0,4.0,4.0,7.0,1.0,6.0,22.0,68.0,35:30,Palm Beach,Florida,France,Palm Beach,Florida,26.6945,-80.0408,9234
 67,2014.0,Audi,RS7,7.0,8.0,6.0,7.0,6.0,34.0,7.0,7.0,8.0,6.0,6.0,34.0,68.0,22:15,King of Prussia,Pennsylvania,Germany,King of Prussia,Pennsylvania,40.0963,-75.3821,25025
 68,2020.0,BMW,X5M Competition,7.0,8.0,6.0,7.0,5.0,33.0,8.0,6.0,7.0,8.0,6.0,35.0,68.0,27:22,Newport Beach,California,Germany,Newport Beach,California,33.6151,-117.8668,84304
 69,2021.0,Bentley,Bentayga V8,5.0,7.0,5.0,6.0,6.0,29.0,8.0,9.0,8.0,8.0,6.0,39.0,68.0,25:42,San Diego,California,UK,San Diego,California,32.8313,-117.1222,3057778
@@ -130,7 +130,7 @@
 128,2021.0,Aston Martin,Vantage Roadster,8.0,8.0,8.0,8.0,7.0,39.0,6.0,6.0,7.0,2.0,5.0,26.0,65.0,22:23,San Diego,California,UK,San Diego,California,32.8313,-117.1222,3057778
 129,2017.0,Mercedes-Maybach,S650 Cabriolet,7.0,7.0,5.0,5.0,6.0,30.0,8.0,9.0,8.0,4.0,6.0,35.0,65.0,28:41,Temecula,California,Germany,Temecula,California,33.4928,-117.1315,110404
 130,2019.0,Jaguar,XE SV Project 8,6.0,9.0,7.0,8.0,6.0,36.0,6.0,6.0,7.0,5.0,5.0,29.0,65.0,25:56,San Diego,California,UK,San Diego,California,32.8313,-117.1222,3057778
-131,2019.0,Maserati ,Levante Trofeo,6.0,8.0,6.0,6.0,5.0,31.0,8.0,6.0,6.0,8.0,6.0,34.0,65.0,10:05,Ontario,California,Italy,Ontario,California,34.0393,-117.6064,178347
+131,2019.0,Maserati,Levante Trofeo,6.0,8.0,6.0,6.0,5.0,31.0,8.0,6.0,6.0,8.0,6.0,34.0,65.0,10:05,Ontario,California,Italy,Ontario,California,34.0393,-117.6064,178347
 132,2019.0,BMW,M2 Competition,6.0,8.0,8.0,8.0,6.0,36.0,6.0,5.0,7.0,4.0,7.0,29.0,65.0,10:44,Los Angeles,California,Germany,Los Angeles,California,34.1141,-118.4068,11885717
 133,2017.0,Nissan,GT-R Nismo,6.0,10.0,9.0,8.0,7.0,40.0,6.0,3.0,7.0,4.0,5.0,25.0,65.0,20:26,Upland,California,Japan,Upland,California,34.1178,-117.6604,78940
 134,1988.0,Porsche,959,6.0,8.0,7.0,8.0,10.0,39.0,4.0,5.0,6.0,4.0,7.0,26.0,65.0,35:21,Newport Beach,California,Germany,Newport Beach,California,33.6151,-117.8668,84304
@@ -159,7 +159,7 @@
 157,2018.0,Audi,RS3,7.0,8.0,6.0,7.0,5.0,33.0,6.0,6.0,7.0,5.0,7.0,31.0,64.0,24:30,Baltimore,Maryland,Germany,Baltimore,Maryland,39.3051,-76.6144,2189589
 158,2020.0,Land Rover,Defender P400,6.0,5.0,4.0,6.0,6.0,27.0,8.0,7.0,6.0,9.0,7.0,37.0,64.0,36:22,Carlsbad,California,UK,Carlsbad,California,33.1246,-117.2834,114500
 159,2019.0,Mercedes-Benz,G550,7.0,4.0,4.0,5.0,6.0,26.0,8.0,8.0,7.0,9.0,6.0,38.0,64.0,27:39,Newport Beach,California,Germany,Newport Beach,California,33.6151,-117.8668,84304
-160,2020.0,Chevrolet ,Corvette C8,6.0,10.0,8.0,8.0,6.0,38.0,7.0,4.0,6.0,2.0,7.0,26.0,64.0,37:47,Las Vegas,Nevada,USA,Las Vegas,Nevada,36.2333,-115.2654,2256509
+160,2020.0,Chevrolet,Corvette C8,6.0,10.0,8.0,8.0,6.0,38.0,7.0,4.0,6.0,2.0,7.0,26.0,64.0,37:47,Las Vegas,Nevada,USA,Las Vegas,Nevada,36.2333,-115.2654,2256509
 161,2022.0,Kia,EV6 GT-Line,6.0,5.0,5.0,5.0,5.0,26.0,8.0,7.0,7.0,9.0,6.0,37.0,63.0,26:32,San Diego,California,South Korea,San Diego,California,32.8313,-117.1222,3057778
 162,2021.0,Mercedes - Benz,E450 AT Wagon,6.0,6.0,5.0,4.0,4.0,25.0,9.0,8.0,8.0,8.0,5.0,38.0,63.0,26:35,San Diego,California,Germany,San Diego,California,32.8313,-117.1222,3057778
 163,2020.0,Volvo,V60 Polestar,7.0,7.0,5.0,4.0,5.0,28.0,8.0,7.0,7.0,8.0,5.0,35.0,63.0,12:55,San Diego,California,Sweden,San Diego,California,32.8313,-117.1222,3057778
@@ -225,7 +225,7 @@
 223,2020.0,Genesis,G90 Ultimate,6.0,5.0,5.0,4.0,4.0,24.0,8.0,8.0,8.0,5.0,7.0,36.0,60.0,27:27,Annapolis,Maryland,South Korea,Annapolis,Maryland,38.9706,-76.5047,40744
 224,2020.0,Mercedes-Benz,GLS450,6.0,4.0,4.0,3.0,4.0,21.0,9.0,8.0,7.0,9.0,6.0,39.0,60.0,27:34,Newport Beach,California,Germany,Newport Beach,California,33.6151,-117.8668,84304
 225,2018.0,Cadillac,CT6,6.0,4.0,5.0,4.0,4.0,23.0,9.0,8.0,8.0,5.0,7.0,37.0,60.0,23:47,Tustin,California,USA,Tustin,California,33.7311,-117.8107,79035
-226,2000.0,BMW ,M5 (E39),7.0,6.0,6.0,6.0,7.0,32.0,4.0,6.0,7.0,5.0,6.0,28.0,60.0,23:44,San Diego,California,Germany,San Diego,California,32.8313,-117.1222,3057778
+226,2000.0,BMW,M5 (E39),7.0,6.0,6.0,6.0,7.0,32.0,4.0,6.0,7.0,5.0,6.0,28.0,60.0,23:44,San Diego,California,Germany,San Diego,California,32.8313,-117.1222,3057778
 227,2011.0,Porsche,997 911 Speedster,7.0,7.0,7.0,7.0,7.0,35.0,4.0,6.0,8.0,2.0,5.0,25.0,60.0,11:29,Upland,California,Germany,Upland,California,34.1178,-117.6604,78940
 228,1990.0,Ferrari,F40,10.0,8.0,9.0,10.0,10.0,47.0,1.0,1.0,3.0,1.0,7.0,13.0,60.0,26:44,Philadelphia,Pennsylvania,Italy,Philadelphia,Pennsylvania,40.0077,-75.1339,5696588
 229,2022.0,Chevrolet,Silverado ZR2,5.0,4.0,3.0,6.0,5.0,23.0,8.0,7.0,8.0,8.0,5.0,36.0,59.0,24:56,Palm Desert,California,USA,Palm Desert,California,33.7378,-116.3695,51551
@@ -249,7 +249,7 @@
 247,2019.0,Lincoln,Continental Coach Door,6.0,5.0,4.0,4.0,5.0,24.0,8.0,8.0,8.0,5.0,5.0,34.0,58.0,24:08,Santa Ana,California,USA,Santa Ana,California,33.7367,-117.8819,311639
 248,2004.0,Mercedes,E55 AMG,6.0,7.0,5.0,5.0,6.0,29.0,4.0,6.0,7.0,5.0,7.0,29.0,58.0,23:51,Tustin,California,Germany,Tustin,California,33.7311,-117.8107,79035
 249,2019.0,Volvo,S60 Polestar,6.0,7.0,5.0,4.0,4.0,26.0,8.0,7.0,7.0,5.0,5.0,32.0,58.0,24:14,San Diego,California,Sweden,San Diego,California,32.8313,-117.1222,3057778
-250,2008.0,Maserati ,GranTurismo MC,6.0,6.0,7.0,7.0,6.0,32.0,4.0,6.0,6.0,4.0,6.0,26.0,58.0,21:49,Boerne,Texas,Italy,Boerne,Texas,29.7847,-98.7292,19509
+250,2008.0,Maserati,GranTurismo MC,6.0,6.0,7.0,7.0,6.0,32.0,4.0,6.0,6.0,4.0,6.0,26.0,58.0,21:49,Boerne,Texas,Italy,Boerne,Texas,29.7847,-98.7292,19509
 251,2002.0,Bentley,Arnage T,6.0,5.0,4.0,5.0,6.0,26.0,4.0,9.0,7.0,5.0,7.0,32.0,58.0,24:30,Los Angeles,California,UK,Los Angeles,California,34.1141,-118.4068,11885717
 252,2019.0,BMW,330i (G20),6.0,4.0,5.0,5.0,4.0,24.0,8.0,7.0,7.0,5.0,7.0,34.0,58.0,22:36,Santa Ana,California,Germany,Santa Ana,California,33.7367,-117.8819,311639
 253,2019.0,Kia,K900,5.0,4.0,5.0,4.0,4.0,22.0,8.0,8.0,8.0,5.0,7.0,36.0,58.0,22:21,San Diego,California,South Korea,San Diego,California,32.8313,-117.1222,3057778
@@ -301,7 +301,7 @@
 299,2006.0,Jaguar,XJ Super V8,6.0,5.0,4.0,5.0,5.0,25.0,5.0,8.0,6.0,5.0,6.0,30.0,55.0,24:43,Corona,California,UK,Corona,California,33.8616,-117.5649,158839
 300,2008.0,Honda,S2000 CR,7.0,4.0,8.0,8.0,6.0,33.0,3.0,4.0,7.0,2.0,6.0,22.0,55.0,26:28,San Diego,California,Japan,San Diego,California,32.8313,-117.1222,3057778
 301,2004.0,Honda,S2000,7.0,4.0,8.0,8.0,5.0,32.0,3.0,4.0,7.0,2.0,7.0,23.0,55.0,15:19,Shakopee,Minnesota,Japan,Shakopee,Minnesota,44.7745,-93.4772,45002
-302,2021.0,Ford ,Bronco Sport,6.0,3.0,3.0,4.0,6.0,22.0,7.0,6.0,6.0,7.0,7.0,33.0,55.0,27:22,San Diego,California,USA,San Diego,California,32.8313,-117.1222,3057778
+302,2021.0,Ford,Bronco Sport,6.0,3.0,3.0,4.0,6.0,22.0,7.0,6.0,6.0,7.0,7.0,33.0,55.0,27:22,San Diego,California,USA,San Diego,California,32.8313,-117.1222,3057778
 303,2021.0,Lexus,IS350 F-Sport,5.0,4.0,5.0,4.0,4.0,22.0,7.0,7.0,8.0,5.0,6.0,33.0,55.0,13:06,San Diego,California,Japan,San Diego,California,32.8313,-117.1222,3057778
 304,2014.0,Mitsubishi,Evolution X,6.0,6.0,6.0,6.0,5.0,29.0,4.0,5.0,5.0,5.0,7.0,26.0,55.0,23:43,Los Angeles,California,Japan,Los Angeles,California,34.1141,-118.4068,11885717
 305,2004.0,Maserati,Coupe (6-Speed),7.0,5.0,6.0,6.0,6.0,30.0,3.0,6.0,5.0,4.0,7.0,25.0,55.0,21:48,San Diego,California,Italy,San Diego,California,32.8313,-117.1222,3057778
@@ -312,10 +312,10 @@
 310,2019.0,Mazda,MX-5 Miata RF,7.0,4.0,8.0,7.0,5.0,31.0,5.0,5.0,6.0,2.0,6.0,24.0,55.0,23:30,San Diego,California,Japan,San Diego,California,32.8313,-117.1222,3057778
 311,2015.0,Fiat,500 Abarth,7.0,2.0,6.0,8.0,5.0,28.0,4.0,4.0,5.0,4.0,10.0,27.0,55.0,21:55,Newport Beach,California,Italy,Newport Beach,California,33.6151,-117.8668,84304
 312,2017.0,Volvo,XC90 Excellence,7.0,4.0,4.0,3.0,4.0,22.0,8.0,8.0,8.0,6.0,3.0,33.0,55.0,20:47,Bethesda,Maryland,Sweden,Bethesda,Maryland,38.9866,-77.1188,67403
-313,1996.0,BMW ,M3 Coupe (Euro),6.0,5.0,6.0,6.0,6.0,29.0,3.0,5.0,6.0,4.0,7.0,25.0,54.0,23:53,New Canaan,Connecticut,Germany,New Canaan,Connecticut,41.142,-73.4905,7032
+313,1996.0,BMW,M3 Coupe (Euro),6.0,5.0,6.0,6.0,6.0,29.0,3.0,5.0,6.0,4.0,7.0,25.0,54.0,23:53,New Canaan,Connecticut,Germany,New Canaan,Connecticut,41.142,-73.4905,7032
 314,2023.0,Subaru,Solterra Touring,5.0,2.0,3.0,3.0,4.0,17.0,8.0,6.0,7.0,9.0,7.0,37.0,54.0,24:37,San Diego,California,Japan,San Diego,California,32.8313,-117.1222,3057778
 315,2004.0,Ford,Mustang Cobra Convertible,6.0,6.0,5.0,7.0,6.0,30.0,3.0,5.0,5.0,4.0,7.0,24.0,54.0,24:40,Phoenix,Arizona,USA,Phoenix,Arizona,33.5722,-112.0892,4065338
-316,2019.0,Lexus ,LX570,3.0,2.0,3.0,4.0,4.0,16.0,7.0,8.0,9.0,9.0,5.0,38.0,54.0,26:23,San Diego,California,Japan,San Diego,California,32.8313,-117.1222,3057778
+316,2019.0,Lexus,LX570,3.0,2.0,3.0,4.0,4.0,16.0,7.0,8.0,9.0,9.0,5.0,38.0,54.0,26:23,San Diego,California,Japan,San Diego,California,32.8313,-117.1222,3057778
 317,1954.0,Mercedes-Benz,300SL Gullwing,10.0,1.0,5.0,6.0,10.0,32.0,1.0,5.0,7.0,2.0,7.0,22.0,54.0,35:18,Long Beach,California,Germany,Long Beach,California,33.7977,-118.167,458491
 318,2007.0,Mercedes-Benz,SLK55 AMG,6.0,7.0,6.0,6.0,5.0,30.0,4.0,5.0,6.0,2.0,7.0,24.0,54.0,22:15,San Diego,California,Germany,San Diego,California,32.8313,-117.1222,3057778
 319,1998.0,Subaru,Impreza 22B,6.0,6.0,6.0,6.0,8.0,32.0,2.0,5.0,5.0,4.0,6.0,22.0,54.0,24:09,San Diego,California,Japan,San Diego,California,32.8313,-117.1222,3057778
@@ -362,7 +362,7 @@
 360,2021.0,Chevrolet,Tahoe High Country,5.0,3.0,3.0,1.0,3.0,15.0,7.0,7.0,7.0,9.0,6.0,36.0,51.0,27:44,Los Angeles,California,USA,Los Angeles,California,34.1141,-118.4068,11885717
 361,1988.0,BMW,M3 (E30),7.0,2.0,6.0,6.0,7.0,28.0,3.0,4.0,6.0,4.0,6.0,23.0,51.0,23:45,San Diego,California,Germany,San Diego,California,32.8313,-117.1222,3057778
 362,1997.0,Toyota,Century V12,4.0,1.0,3.0,4.0,6.0,18.0,6.0,8.0,8.0,5.0,6.0,33.0,51.0,26:09,Riverside,California,Japan,Riverside,California,33.9381,-117.3949,2288508
-363,2018.0,Polaris ,Slingshot,6.0,5.0,7.0,9.0,6.0,33.0,2.0,2.0,6.0,1.0,7.0,18.0,51.0,21:29,Upland,California,USA,Upland,California,34.1178,-117.6604,78940
+363,2018.0,Polaris,Slingshot,6.0,5.0,7.0,9.0,6.0,33.0,2.0,2.0,6.0,1.0,7.0,18.0,51.0,21:29,Upland,California,USA,Upland,California,34.1178,-117.6604,78940
 364,2020.0,Mercedes-Benz,GLB250,5.0,2.0,4.0,2.0,3.0,16.0,6.0,7.0,7.0,8.0,7.0,35.0,51.0,22:43,Newport Beach,California,Germany,Newport Beach,California,33.6151,-117.8668,84304
 365,2019.0,Audi,Q3,6.0,2.0,4.0,2.0,3.0,17.0,7.0,7.0,6.0,7.0,7.0,34.0,51.0,8:24,Newport Beach,California,Germany,Newport Beach,California,33.6151,-117.8668,84304
 366,2019.0,Mercedes-Benz,A220,5.0,2.0,4.0,3.0,4.0,18.0,7.0,7.0,7.0,5.0,7.0,33.0,51.0,24:05,Newport Beach,California,Germany,Newport Beach,California,33.6151,-117.8668,84304
@@ -385,7 +385,7 @@
 383,2019.0,Toyota,Tacoma TRD Pro,6.0,1.0,3.0,5.0,5.0,20.0,5.0,5.0,7.0,6.0,7.0,30.0,50.0,20:46,El Cajon,California,Japan,El Cajon,California,32.8017,-116.9604,104909
 384,2016.0,USSV,Rhino GX,5.0,1.0,2.0,6.0,7.0,21.0,6.0,5.0,6.0,7.0,4.0,28.0,49.0,28:26,Costa Mesa,California,USA,Costa Mesa,California,33.6667,-117.9135,110538
 385,2020.0,Suzuki,Jimny,7.0,1.0,3.0,7.0,7.0,25.0,4.0,3.0,6.0,4.0,7.0,24.0,49.0,26:53,Los Angeles,California,Japan,Los Angeles,California,34.1141,-118.4068,11885717
-386,2021.0,Toyota ,Mirai,5.0,1.0,4.0,2.0,4.0,16.0,7.0,7.0,8.0,5.0,6.0,33.0,49.0,25:14,San Diego,California,Japan,San Diego,California,32.8313,-117.1222,3057778
+386,2021.0,Toyota,Mirai,5.0,1.0,4.0,2.0,4.0,16.0,7.0,7.0,8.0,5.0,6.0,33.0,49.0,25:14,San Diego,California,Japan,San Diego,California,32.8313,-117.1222,3057778
 387,2021.0,GMC,Yukon Denali Diesel,5.0,1.0,3.0,1.0,3.0,13.0,7.0,7.0,7.0,9.0,6.0,36.0,49.0,25:21,San Diego,California,USA,San Diego,California,32.8313,-117.1222,3057778
 388,2021.0,Ford,F-150 King Ranch,5.0,3.0,2.0,1.0,3.0,14.0,7.0,7.0,6.0,8.0,7.0,35.0,49.0,25:50,San Diego,California,USA,San Diego,California,32.8313,-117.1222,3057778
 389,2020.0,Toyota,Highlander Platinum,5.0,1.0,3.0,1.0,1.0,11.0,8.0,7.0,8.0,9.0,6.0,38.0,49.0,22:40,El Cajon,California,Japan,El Cajon,California,32.8017,-116.9604,104909
@@ -410,7 +410,7 @@
 408,2016.0,Jeep,Wrangler 6x6,6.0,1.0,6.0,6.0,7.0,26.0,4.0,4.0,3.0,6.0,5.0,22.0,48.0,20:42,Upland,California,USA,Upland,California,34.1178,-117.6604,78940
 409,1990.0,Bentley,Turbo R,5.0,2.0,3.0,4.0,5.0,19.0,3.0,9.0,6.0,5.0,6.0,29.0,48.0,24:45,El Cajon,California,UK,El Cajon,California,32.8017,-116.9604,104909
 410,2020.0,Subaru,Outback XT,5.0,3.0,3.0,1.0,1.0,13.0,6.0,7.0,7.0,8.0,7.0,35.0,48.0,23:30,Santa Ana,California,Japan,Santa Ana,California,33.7367,-117.8819,311639
-411,1987.0,Buick ,Grand National,8.0,2.0,4.0,5.0,7.0,26.0,2.0,5.0,4.0,4.0,7.0,22.0,48.0,25:19,Santa Ana,California,USA,Santa Ana,California,33.7367,-117.8819,311639
+411,1987.0,Buick,Grand National,8.0,2.0,4.0,5.0,7.0,26.0,2.0,5.0,4.0,4.0,7.0,22.0,48.0,25:19,Santa Ana,California,USA,Santa Ana,California,33.7367,-117.8819,311639
 412,2019.0,Mazda,Mazda3 Sedan,6.0,2.0,5.0,3.0,3.0,19.0,6.0,5.0,6.0,5.0,7.0,29.0,48.0,22:14,San Diego,California,Japan,San Diego,California,32.8313,-117.1222,3057778
 413,2020.0,Ford,Escape Hybrid,5.0,1.0,3.0,1.0,1.0,11.0,8.0,6.0,6.0,8.0,8.0,36.0,47.0,23:39,Vista,California,USA,Vista,California,33.1896,-117.2386,98646
 414,2006.0,Citröen,C6,4.0,1.0,3.0,4.0,6.0,18.0,5.0,7.0,6.0,5.0,6.0,29.0,47.0,29:55,Nashville,Tennessee,France,Nashville,Tennessee,36.1715,-86.7842,1178679
@@ -479,7 +479,7 @@
 477,1994.0,Acura,Legend Coupe,5.0,1.0,4.0,3.0,4.0,17.0,3.0,6.0,7.0,4.0,6.0,26.0,43.0,21:17,Mission Viejo,California,Japan,Mission Viejo,California,33.6096,-117.6551,634674
 478,1999.0,Plymouth,Prowler,6.0,4.0,5.0,5.0,6.0,26.0,2.0,4.0,5.0,1.0,5.0,17.0,43.0,12:22,Wilkes-Barre,Pennsylvania,USA,Wilkes-Barre,Pennsylvania,41.2469,-75.876,44217
 479,2005.0,Maserati,Quattroporte,4.0,5.0,6.0,2.0,5.0,22.0,4.0,5.0,3.0,5.0,4.0,21.0,43.0,18:20,Golden Valley,Minnesota,Italy,Golden Valley,Minnesota,44.9901,-93.3591,21927
-480,1986.0,Nissan ,Maxima,5.0,1.0,3.0,2.0,6.0,17.0,3.0,6.0,6.0,5.0,6.0,26.0,43.0,28:22,San Diego,California,Japan,San Diego,California,32.8313,-117.1222,3057778
+480,1986.0,Nissan,Maxima,5.0,1.0,3.0,2.0,6.0,17.0,3.0,6.0,6.0,5.0,6.0,26.0,43.0,28:22,San Diego,California,Japan,San Diego,California,32.8313,-117.1222,3057778
 481,2000.0,Ford,Excursion V10,4.0,1.0,2.0,1.0,4.0,12.0,3.0,5.0,6.0,9.0,7.0,30.0,42.0,24:16,Orange,California,USA,Orange,California,33.8038,-117.8218,138723
 482,2004.0,Ford,Thunderbird,6.0,3.0,4.0,4.0,3.0,20.0,3.0,6.0,5.0,3.0,5.0,22.0,42.0,20:26,Philadelphia,Pennsylvania,USA,Philadelphia,Pennsylvania,40.0077,-75.1339,5696588
 483,1998.0,Lincoln,Navigator,4.0,1.0,2.0,1.0,3.0,11.0,3.0,7.0,6.0,8.0,7.0,31.0,42.0,23:15,Los Angeles,California,USA,Los Angeles,California,34.1141,-118.4068,11885717
@@ -487,7 +487,7 @@
 485,1987.0,Pontiac,Fiero GT,5.0,1.0,5.0,6.0,5.0,22.0,2.0,5.0,5.0,2.0,6.0,20.0,42.0,22:58,San Diego,California,USA,San Diego,California,32.8313,-117.1222,3057778
 486,1990.0,Mitsubishi,Sigma,4.0,1.0,3.0,2.0,5.0,15.0,3.0,6.0,6.0,5.0,6.0,26.0,41.0,19:27,San Diego,California,Japan,San Diego,California,32.8313,-117.1222,3057778
 487,1996.0,Chevrolet,Suburban,6.0,1.0,2.0,1.0,4.0,14.0,2.0,5.0,4.0,9.0,7.0,27.0,41.0,26:38,Yorba Linda,California,USA,Yorba Linda,California,33.889,-117.7714,67407
-488,1989.0,Buick ,Reatta,4.0,1.0,4.0,4.0,4.0,17.0,4.0,6.0,6.0,2.0,6.0,24.0,41.0,26:47,San Diego,California,USA,San Diego,California,32.8313,-117.1222,3057778
+488,1989.0,Buick,Reatta,4.0,1.0,4.0,4.0,4.0,17.0,4.0,6.0,6.0,2.0,6.0,24.0,41.0,26:47,San Diego,California,USA,San Diego,California,32.8313,-117.1222,3057778
 489,2008.0,Chevrolet,Tahoe Hybrid,5.0,1.0,2.0,1.0,2.0,11.0,3.0,6.0,6.0,9.0,6.0,30.0,41.0,22:43,Scottsdale,Arizona,USA,Scottsdale,Arizona,33.6872,-111.8651,242169
 490,2011.0,Saab,9-5,6.0,1.0,4.0,2.0,4.0,17.0,4.0,5.0,5.0,5.0,5.0,24.0,41.0,20:39,San Diego,California,Sweden,San Diego,California,32.8313,-117.1222,3057778
 491,1988.0,Jaguar,XJS V12,6.0,1.0,4.0,4.0,5.0,20.0,2.0,6.0,3.0,4.0,6.0,21.0,41.0,24:51,San Diego,California,UK,San Diego,California,32.8313,-117.1222,3057778
@@ -508,13 +508,13 @@
 506,2015.0,Cadillac,ELR,6.0,1.0,4.0,2.0,3.0,16.0,5.0,7.0,6.0,3.0,2.0,23.0,39.0,13:38,Birmingham,Michigan,USA,Birmingham,Michigan,42.5446,-83.2166,21612
 507,2005.0,Pontiac,Vibe GT,4.0,1.0,3.0,3.0,2.0,13.0,3.0,4.0,5.0,7.0,6.0,25.0,38.0,22:32,San Diego,California,USA,San Diego,California,32.8313,-117.1222,3057778
 508,1996.0,Mitsubishi,Pajero Mini,5.0,1.0,3.0,3.0,4.0,16.0,2.0,3.0,6.0,5.0,6.0,22.0,38.0,23:52,Cookeville,Tennessee,Japan,Cookeville,Tennessee,36.1482,-85.5109,35544
-509,1996.0,Ford ,Bronco,5.0,1.0,2.0,2.0,4.0,14.0,2.0,5.0,5.0,5.0,7.0,24.0,38.0,22:17,San Diego,California,USA,San Diego,California,32.8313,-117.1222,3057778
+509,1996.0,Ford,Bronco,5.0,1.0,2.0,2.0,4.0,14.0,2.0,5.0,5.0,5.0,7.0,24.0,38.0,22:17,San Diego,California,USA,San Diego,California,32.8313,-117.1222,3057778
 510,2001.0,Isuzu,VehiCROSS,3.0,1.0,3.0,3.0,4.0,14.0,2.0,4.0,6.0,5.0,7.0,24.0,38.0,23:29,Castaic,California,Japan,Castaic,California,34.4818,-118.6316,18479
 511,1994.0,Ford,Explorer XLT,6.0,1.0,2.0,1.0,3.0,13.0,2.0,4.0,4.0,8.0,6.0,24.0,37.0,28:55,San Jose,California,USA,San Jose,California,37.3012,-121.848,1771563
 512,1989.0,Dodge,Dakota Convertible,4.0,1.0,2.0,3.0,5.0,15.0,2.0,4.0,5.0,4.0,7.0,22.0,37.0,22:12,Los Angeles,California,USA,Los Angeles,California,34.1141,-118.4068,11885717
 513,1988.0,Volga,GAZ 24-10,3.0,1.0,2.0,3.0,5.0,14.0,2.0,6.0,4.0,5.0,6.0,23.0,37.0,22:25,Los Angeles,California,Russia,Los Angeles,California,34.1141,-118.4068,11885717
 514,2016.0,Los Res,Car,8.0,1.0,1.0,6.0,8.0,24.0,1.0,1.0,3.0,1.0,5.0,11.0,35.0,23:01,Los Angeles,California,Denmark,Los Angeles,California,34.1141,-118.4068,11885717
-515,1992.0,Geo ,Metro Convertible,5.0,1.0,2.0,3.0,4.0,15.0,2.0,3.0,5.0,2.0,6.0,18.0,33.0,23:49,San Diego,California,Japan,San Diego,California,32.8313,-117.1222,3057778
+515,1992.0,Geo,Metro Convertible,5.0,1.0,2.0,3.0,4.0,15.0,2.0,3.0,5.0,2.0,6.0,18.0,33.0,23:49,San Diego,California,Japan,San Diego,California,32.8313,-117.1222,3057778
 516,2005.0,Hummer,H2,4.0,1.0,2.0,1.0,1.0,9.0,3.0,7.0,2.0,9.0,2.0,23.0,32.0,9:00,Orlando,Florida,USA,Orlando,Florida,28.4773,-81.337,1913597
 517,1975.0,Ferret,Tank,5.0,1.0,1.0,7.0,6.0,20.0,1.0,1.0,2.0,1.0,7.0,12.0,32.0,11:23,Franklin,Tennessee,UK,Franklin,Tennessee,35.92,-86.8516,85575
 518,2016.0,Mitsubishi,Mirage,3.0,1.0,2.0,1.0,1.0,8.0,3.0,4.0,3.0,7.0,6.0,23.0,31.0,22:33,San Mateo,California,Japan,San Mateo,California,37.5522,-122.3121,103555
