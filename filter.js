@@ -1,3 +1,5 @@
+import { updateMap, displayResults } from './map.js';
+
 document.addEventListener('DOMContentLoaded', function() {
     Papa.parse('ds_geo.csv', {
         download: true,
@@ -11,6 +13,9 @@ document.addEventListener('DOMContentLoaded', function() {
             populateDropdown('make', makes);
             populateDropdown('model', ["All"]);
             populateDropdown('year', years);
+
+            // Show the full table by default
+            displayResults(null, null, data);
 
             document.getElementById('make').addEventListener('change', function() {
                 const selectedMake = this.value;
@@ -26,6 +31,14 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('year').addEventListener('change', function() {
                 filterAndDispatch(data);
             });
+
+            // Add event listener for the Clear button
+            document.getElementById('clearButton').addEventListener('click', function() {
+                document.getElementById('make').value = "All";
+                document.getElementById('model').value = "All";
+                document.getElementById('year').value = "All";
+                displayResults(null, null, data); // Reset the table to show all results
+            });
         }
     });
 });
@@ -35,26 +48,14 @@ function filterAndDispatch(data) {
     const model = document.getElementById('model').value;
     const year = document.getElementById('year').value;
 
-    console.log('Selected Make:', make);
-    console.log('Selected Model:', model);
-    console.log('Selected Year:', year);
-
     const filteredData = data.filter(car => {
-        const carYear = parseInt(car.Year);
-        const [startYear, endYear] = year === "All" ? [0, Infinity] : year.split('-').map(y => parseInt(y));
-
-        console.log('Car Year:', carYear);
-        console.log('Start Year:', startYear, 'End Year:', endYear);
-
         return (make === "All" || car.Make === make) &&
                (model === "All" || car.Model === model) &&
-               (year === "All" || (carYear >= startYear && carYear <= endYear));
+               (year === "All" || car.Year === year);
     });
 
-    console.log('Filtered Data:', filteredData);
-
-    const event = new CustomEvent('filteredData', { detail: filteredData });
-    document.dispatchEvent(event);
+    updateMap(filteredData);
+    displayResults(null, null, filteredData);
 }
 
 function getModelsByMake(data) {
@@ -75,7 +76,13 @@ function populateDropdown(id, options, clear = false) {
     if (clear) {
         select.innerHTML = '';
     }
-    options.forEach(option => {
+
+    const sortedOptions = options.filter(option => option !== "All").sort();
+    if (options.includes("All")) {
+        sortedOptions.unshift("All");
+    }
+
+    sortedOptions.forEach(option => {
         const opt = document.createElement('option');
         opt.value = option;
         opt.textContent = option;
@@ -89,4 +96,14 @@ function generateYearRanges(startYear, endYear) {
         ranges.push(`${year}-${year + 9}`);
     }
     return ranges;
+}
+
+function clearFilters(data) {
+    // Reset all dropdowns to "All"
+    document.getElementById('make').value = "All";
+    document.getElementById('model').value = "All";
+    document.getElementById('year').value = "All";
+
+    // Trigger the filtering logic with all filters reset
+    filterAndDispatch(data);
 }

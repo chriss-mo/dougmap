@@ -8,6 +8,10 @@ body {
     margin: 0;
 }
 
+.text-container {
+    max-width: 80%;
+}
+
 #results{
     margin-top: 5%;
 }
@@ -18,38 +22,149 @@ body {
     width: 100%;
 }
 
+/* Style the filter container to use CSS Grid */
 .ds-filter {
-    margin-bottom: 20px;
+    display: grid; /* Enable CSS Grid */
+    grid-template-columns: repeat(3, 1fr); /* Divide into 3 equal columns */
+    gap: 20px; /* Add spacing between columns */
+    width: 80%; /* Limit the width of the filter container */
+    margin: 0 auto; /* Center the filter container horizontally */
+}
+
+/* Style each label and select pair */
+.ds-filter div {
+    display: flex;
+    flex-direction: column; /* Stack the label above the select */
+}
+
+/* Style the dropdowns to ensure consistent appearance */
+.ds-filter select {
+    width: 100%; /* Ensure dropdowns take up the full width of their grid cell */
+    padding: 8px; /* Add padding for better usability */
+    font-size: 16px; /* Adjust font size for readability */
+    border: 1px solid #ddd; /* Add a border */
+    border-radius: 4px; /* Add rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 }
 
 .ds-results {
     margin-top: 20px;
+    width: 100%; /* Ensure the results container takes up the full width */
+    margin: 0 auto; /* Center the container horizontally */
 }
 
+/* Style the map */
+#map {
+    width: 100%; /* Make the map take up the full width of the container */
+    height: 500px; /* Set a fixed height for the map */
+    margin-bottom: 20px; /* Add spacing below the map */
+}
+
+/* Style the results container */
 #results {
-    width: 100%;
-    border-collapse: collapse;
+    width: 100%; /* Make the table take up the full width of the container */
+    max-height: 400px; /* Set a maximum height for the table */
+    min-height: 100px; /* Set a minimum height to prevent snapping */
+    overflow-y: auto; /* Add vertical scrolling if the content exceeds the height */
+    border: 1px solid #ddd; /* Add a border around the table container */
+    padding: 10px; /* Add padding for better spacing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for better visibility */
+    background-color: #fff; /* Set a white background for the table container */
+    transition: min-height 0.3s ease; /* Smooth transition for height changes */
 }
 
+/* Style the table inside the results container */
 #results table {
-    width: 100%;
-    border-collapse: collapse;
+    width: 100%; /* Ensure the table takes up the full width of the container */
+    border-collapse: collapse; /* Remove gaps between table cells */
 }
 
+/* Style the table headers and cells */
 #results th, #results td {
-    border: 1px solid #ddd;
-    padding: 8px;
+    border: 1px solid #ddd; /* Add borders to table cells */
+    padding: 8px; /* Add padding inside cells */
+    text-align: left; /* Align text to the left */
 }
 
+/* Style the table header */
 #results th {
-    background-color: #f2f2f2;
+    background-color: #f2f2f2; /* Light gray background for headers */
+    font-weight: bold; /* Make header text bold */
+}
+
+/* Add alternating row colors for better readability */
+#results tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light gray background for even rows */
+}
+
+/* Highlight rows on hover */
+#results tr:hover {
+    background-color: #ddd; /* Darker gray background on hover */
+}
+
+/* Style the results header to position the heading and button */
+.results-header {
+    display: flex; /* Use Flexbox for layout */
+    justify-content: space-between; /* Push items to opposite sides */
+    align-items: center; /* Vertically align items */
+    margin-bottom: 10px; /* Add spacing below the header */
+}
+
+/* Style the Clear Filters button */
+#clearButton {
+    padding: 8px 16px; /* Add padding for better usability */
+    font-size: 14px; /* Adjust font size */
+    background-color: #007BFF; /* Blue background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Add rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+#clearButton:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Style the custom popup */
+.mapboxgl-popup.custom-popup {
+    font-family: Arial, sans-serif;
+    color: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    padding: 10px;
+    max-width: 300px; /* Constrain the width */
+    overflow: hidden; /* Prevent content overflow */
     text-align: left;
 }
 
-#results tr:nth-child(even) {
-    background-color: #f9f9f9;
+/* Style the popup content */
+.mapboxgl-popup.custom-popup .popup-content h4 {
+    margin: 0; /* Remove default margin */
+    font-size: 16px; /* Set font size for the title */
+    color: #007BFF; /* Use a blue color for the title */
 }
 
-#results tr:hover {
-    background-color: #ddd;
+.mapboxgl-popup.custom-popup .popup-content p {
+    margin: 5px 0 0; /* Add spacing between paragraphs */
+    font-size: 14px; /* Set font size for the text */
+    color: #555; /* Use a subtle gray color for the text */
+}
+
+/* Remove the default popup tip */
+.mapboxgl-popup-tip {
+    display: none; /* Hide the default popup arrow */
+}
+
+/* Add a custom arrow for the popup */
+.mapboxgl-popup.custom-popup::after {
+    content: '';
+    position: absolute;
+    bottom: -10px; /* Position the arrow below the popup */
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 10px;
+    border-style: solid;
+    border-color: #fff transparent transparent transparent; /* White arrow pointing down */
 }
