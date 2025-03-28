@@ -102,6 +102,18 @@ body {
     background-color: #ddd; /* Darker gray background on hover */
 }
 
+/* Highlight the Total Daily, Total Weekend, and DougScore columns */
+.highlight-column {
+    background-color: #f9f9f9; /* Light gray background */
+    font-weight: bold; /* Make the text bold */
+    color: #333; /* Darker text color for better contrast */
+}
+
+/* Add a subtle hover effect for rows */
+#results tbody tr:hover .highlight-column {
+    background-color: #e6f7ff; /* Light blue background on hover */
+}
+
 /* Style the results header to position the heading and button */
 .results-header {
     display: flex; /* Use Flexbox for layout */

@@ -143,12 +143,6 @@ function getColor(count, maxCount) {
 }
 
 export function displayResults(city = null, state = null, observations) {
-    // Convert year to integer and sort by year
-    observations.forEach(car => {
-        car.Year = parseInt(car.Year, 10);
-    });
-    observations.sort((a, b) => a.Year - b.Year);
-
     const resultsContainer = document.getElementById('results');
     const count = observations.length; // Get the number of observations
 
@@ -173,8 +167,8 @@ export function displayResults(city = null, state = null, observations) {
                     <th>Quality</th>
                     <th>Practicality</th>
                     <th>Value</th>
-                    <th>Total Daily</th>
-                    <th>Total Overall</th>
+                    <th class="highlight-column">Total Daily</th>
+                    <th class="highlight-column">DougScore</th>
                 </tr>
             </thead>
             <tbody>
@@ -188,14 +182,14 @@ export function displayResults(city = null, state = null, observations) {
                         <td>${car.Handling}</td>
                         <td>${car['Fun Factor']}</td>
                         <td>${car['Cool Factor']}</td>
-                        <td>${car.Total_Weekend}</td>
+                        <td class="highlight-column">${car.Total_Weekend}</td>
                         <td>${car.Features}</td>
                         <td>${car.Comfort}</td>
                         <td>${car.Quality}</td>
                         <td>${car.Practicality}</td>
                         <td>${car.Value}</td>
-                        <td>${car.Total_Daily}</td>
-                        <td>${car.Total_Overall}</td>
+                        <td class="highlight-column">${car.Total_Daily}</td>
+                        <td class="highlight-column">${car.Total_Overall}</td>
                     </tr>
                 `).join('')}
             </tbody>
