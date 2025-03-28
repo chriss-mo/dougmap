@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
         complete: function(results) {
             const data = results.data.map(car => {
                 // Cast specific columns as integers
+                car.Year = parseInt(car.Year, 10) || 0;
                 car.Styling = parseInt(car.Styling, 10) || 0;
                 car.Acceleration = parseInt(car.Acceleration, 10) || 0;
                 car.Handling = parseInt(car.Handling, 10) || 0;
@@ -75,6 +76,23 @@ function filterAndDispatch(data) {
         return (make === "All" || car.Make === make) &&
                (model === "All" || car.Model === model) &&
                yearMatch; // Include the year match condition
+    }).map(car => {
+        // Cast specific columns as integers
+        car.Year = parseInt(car.Year, 10) || 0;
+        car.Styling = parseInt(car.Styling, 10) || 0;
+        car.Acceleration = parseInt(car.Acceleration, 10) || 0;
+        car.Handling = parseInt(car.Handling, 10) || 0;
+        car['Fun Factor'] = parseInt(car['Fun Factor'], 10) || 0;
+        car['Cool Factor'] = parseInt(car['Cool Factor'], 10) || 0;
+        car.Total_Weekend = parseInt(car.Total_Weekend, 10) || 0;
+        car.Features = parseInt(car.Features, 10) || 0;
+        car.Comfort = parseInt(car.Comfort, 10) || 0;
+        car.Quality = parseInt(car.Quality, 10) || 0;
+        car.Practicality = parseInt(car.Practicality, 10) || 0;
+        car.Value = parseInt(car.Value, 10) || 0;
+        car.Total_Daily = parseInt(car.Total_Daily, 10) || 0;
+        car.Total_Overall = parseInt(car.Total_Overall, 10) || 0;
+        return car;
     });
 
     updateMap(filteredData);
